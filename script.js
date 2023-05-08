@@ -15,7 +15,7 @@ function createTeasePagination(containerName,teasesPerPage) {
 
         }
       else {
-        teases =   container.querySelectorAll(container + "> *");
+        teases =   container.querySelectorAll('*');
           console.log(teases);
         }
         
