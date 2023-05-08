@@ -15,8 +15,8 @@ function createTeasePagination(containerName,teasesPerPage) {
 
         }
       else {
-          container.querySelectorAll(container + "> *");
-          console.log(container)
+        teases =   container.querySelectorAll(container + "> *");
+          console.log(teases);
         }
         
      const children = container.querySelectorAll(".cmp-container > .aem-Grid > *:not(.separator)");
@@ -93,5 +93,5 @@ function createTeasePagination(containerName,teasesPerPage) {
   });
 }
 
-createTeasePagination('.cmp-container--pagination', 2);
+
 
